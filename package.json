@@ -1,0 +1,21 @@
+{
+  "name": "com.baracuda.tools",
+  "version": "1.0.0",
+  "displayName": "Tools",
+  "description": "Collection of non project specific tools. This includes editor windows, utilities and more.",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/JohnBaracuda/com.baracuda.utilities",
+  "changelogUrl": "https://github.com/JohnBaracuda/com.baracuda.utilities/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/JohnBaracuda/com.baracuda.utilities/blob/main/LICENSE.md",
+  "keywords": [
+    "utility",
+    "extensions",
+    "tools"
+  ],
+  "author": {
+    "name": "John Baracuda",
+    "email": "johnBaracudaGames@gmail.com",
+    "url": "https://github.com/JohnBaracuda"
+  },
+  "type": "tool"
+}

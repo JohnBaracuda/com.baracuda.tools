@@ -1,0 +1,20 @@
+{
+    "name": "Baracuda.Tools.Editor",
+    "rootNamespace": "Baracuda.Tools",
+    "references": [
+        "GUID:a61ee700532e2d34d905dbee77acfec2",
+        "GUID:ebf14bd9950c0cb429d7280a2c7ab8fe",
+        "GUID:b36315b18db27a54aa4a0451d8b88701"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
