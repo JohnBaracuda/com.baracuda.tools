@@ -42,7 +42,7 @@ namespace Baracuda.Tools.Editor.Windows
 
         #region Setup
 
-        [UnityEditor.MenuItem("Assets/Create/ScriptableObject %&s", priority = -100)]
+        [UnityEditor.MenuItem("Assets/InstantiatePrefab/ScriptableObject %&s", priority = -100)]
         public static void OpenWindow()
         {
             var window = GetWindow<ScriptableObjectFactory>("Object Factory");
@@ -265,7 +265,7 @@ namespace Baracuda.Tools.Editor.Windows
             if (ScriptableObjectFactorySettings.SearchOptions.HasFlagFast(SearchOptions.CreateAttributePath))
             {
                 var attributeRect = new Rect(rect.x + rectOffset, rect.y, rect.width - rectOffset, rect.height);
-                UnityEditor.EditorGUI.LabelField(attributeRect, "Create Asset Path");
+                UnityEditor.EditorGUI.LabelField(attributeRect, "InstantiatePrefab Asset Path");
                 rectOffset += ColumnWidth;
             }
 
@@ -527,7 +527,7 @@ namespace Baracuda.Tools.Editor.Windows
                 _fileName = UnityEditor.EditorGUILayout.TextField(_fileName, GUILayout.Width(240));
             }
 
-            if (GUILayout.Button("Create", GUILayout.Width(120)))
+            if (GUILayout.Button("InstantiatePrefab", GUILayout.Width(120)))
             {
                 CreateAssets();
             }

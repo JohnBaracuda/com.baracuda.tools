@@ -9,4 +9,11 @@ namespace Baracuda.Tools
     public class ReadonlyInspectorAttribute : Attribute
     {
     }
+
+    [ReadOnly]
+    [ShowInInspector]
+    [IncludeMyAttributes]
+    public class DebugAttribute : Attribute
+    {
+    }
 }
